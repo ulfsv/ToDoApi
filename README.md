@@ -31,4 +31,14 @@ I added the wwwroot folder, index.html, site.js and site.css. Configured the Sta
 
 ![Image of javascript front end](https://github.com/ulfsv/ToDoApi/blob/master/2020-12-17.png)
 
+# Web API documentation with Swagger 
 
+There are three main components to the nuget package Swashbuckle:
+
+- Swashbuckle.AspNetCore.Swagger: a Swagger object model and middleware to expose SwaggerDocument objects as JSON endpoints.
+
+- Swashbuckle.AspNetCore.SwaggerGen: a Swagger generator that builds SwaggerDocument objects directly from your routes, controllers, and models. It's typically combined with the Swagger endpoint middleware to automatically expose Swagger JSON.
+
+- Swashbuckle.AspNetCore.SwaggerUI: an embedded version of the Swagger UI tool. It interprets Swagger JSON to build a rich, customizable experience for describing the web API functionality. It includes built-in test harnesses for the public methods.
+
+![Swagger API web page](https://github.com/ulfsv/ToDoApi/blob/master/2020-12-17 (1).png)
