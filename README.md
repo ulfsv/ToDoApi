@@ -1,9 +1,8 @@
 # ToDoApi
-Tutorial: Create a web API with ASP.NET Core
 
-This tutorial teaches the basics of building a web API with ASP.NET Core.
+I have built a basic a web API with ASP.NET Core 3.1.
 
-In this tutorial, you learn how to:
+I have learned how to:
 
     Create a web API project.
     Add a model class and a database context.
@@ -11,12 +10,14 @@ In this tutorial, you learn how to:
     Configure routing, URL paths, and return values.
     Call the web API with Postman.
 
-At the end, you have a web API that can manage "to-do" items stored in a database.
+The web API can manage "to-do" items stored in a database.
 
-# Problems encountered in the tutorial
+# Problems encountered
 
 ## Routing and URL paths
-In the TodoItemsController.cs you should change the routing [Route("api/[controller]")] and replace [controller] with [Route("api/[TodoItems]")].
+
+The ![web api tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio) mentioned that
+the routing in the TodoItemsController.cs should be changed. In the route [Route("api/[controller]")] replace [controller] with [Route("api/[TodoItems]")].
 Including the [] is not working which took me a while to figure out. The correct route is: [Route("api/TodoItems")].
 
 ## The DTO approach
