@@ -25,7 +25,7 @@ When implementing the DTO. To verify that you can post and get the Secret field,
 
 # Call an ASP.NET Core web API with JavaScript
 
-In this section, you'll add an HTML page containing forms for creating and managing to-do items. Event handlers are attached to elements on the page. The event handlers result in HTTP requests to the web API's action methods. The Fetch API's fetch function initiates each HTTP request.
+In this section, I added an HTML page containing forms for creating and managing to-do items. Event handlers are attached to elements on the page. The event handlers result in HTTP requests to the web API's action methods. The Fetch API's fetch function initiates each HTTP request.
 
 I added the wwwroot folder, index.html, site.js and site.css. Configured the Startup.cs to show static files and enabled default file mapping.
 
