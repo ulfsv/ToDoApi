@@ -22,4 +22,10 @@ Including the [] is not working which took me a while to figure out. The correct
 ## The DTO approach
 When implementing the DTO. To verify that you can post and get the Secret field, you need to include that in the controller routing and TodoItemDTO.cs: Secret = todoItem.Secret
 
+# Call an ASP.NET Core web API with JavaScript
+
+In this section, you'll add an HTML page containing forms for creating and managing to-do items. Event handlers are attached to elements on the page. The event handlers result in HTTP requests to the web API's action methods. The Fetch API's fetch function initiates each HTTP request.
+
 ![Image of javascript front end](https://github.com/ulfsv/ToDoApi/blob/master/2020-12-17.png)
+
+I added the wwwroot folder, index.html, site.js and site.css. Configured the Startup.cs to show static files and enabled default file mapping.
