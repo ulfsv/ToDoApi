@@ -16,7 +16,7 @@ The web API can manage "to-do" items stored in a database.
 
 ## Routing and URL paths
 
-The ![web api tutorial]("https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio") mentioned that
+The [web api tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio) mentioned that
 the routing in the TodoItemsController.cs should be changed. In the route [Route("api/[controller]")] replace [controller] with [Route("api/[TodoItems]")].
 Including the [] is not working which took me a while to figure out. The correct route is: [Route("api/TodoItems")].
 
