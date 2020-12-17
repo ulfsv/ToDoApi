@@ -40,7 +40,10 @@ namespace ToDoApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            // added for the javascript fetch
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+            // ##
             app.UseHttpsRedirection();
 
             app.UseRouting();
