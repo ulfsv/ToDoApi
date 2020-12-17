@@ -20,4 +20,4 @@ In the TodoItemsController.cs you should change the routing [Route("api/[control
 Including the [] is not working which took me a while to figure out. The correct route is: [Route("api/TodoItems")].
 
 ## The DTO approach
-When implementing the DTO. To verify that you can post and get the Secret field, you need to include that in the controller routing: Secret = todoItem.Secret
+When implementing the DTO. To verify that you can post and get the Secret field, you need to include that in the controller routing and TodoItemDTO.cs: Secret = todoItem.Secret
