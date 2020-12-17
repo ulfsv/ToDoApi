@@ -41,4 +41,4 @@ There are three main components to the nuget package Swashbuckle:
 
 - Swashbuckle.AspNetCore.SwaggerUI: an embedded version of the Swagger UI tool. It interprets Swagger JSON to build a rich, customizable experience for describing the web API functionality. It includes built-in test harnesses for the public methods.
 
-![Swagger API web page](https://github.com/ulfsv/ToDoApi/blob/master/2020-12-17 (1).png)
+![Swagger API web page](https://github.com/ulfsv/ToDoApi/blob/master/2020-12-17swagger.png)
