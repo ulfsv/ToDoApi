@@ -21,3 +21,5 @@ Including the [] is not working which took me a while to figure out. The correct
 
 ## The DTO approach
 When implementing the DTO. To verify that you can post and get the Secret field, you need to include that in the controller routing and TodoItemDTO.cs: Secret = todoItem.Secret
+
+![Image of javascript front end](https://github.com/ulfsv/ToDoApi/2020-12-17.png)
